@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5CC281D1BFCA2E8005C93F6 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CC281C1BFCA2E8005C93F6 /* Parser.swift */; settings = {ASSET_TAGS = (); }; };
+		B5EA56681BF22FE8002CAEE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EA56671BF22FE8002CAEE6 /* AppDelegate.swift */; };
+		B5EA566A1BF22FE8002CAEE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EA56691BF22FE8002CAEE6 /* ViewController.swift */; };
+		B5EA566D1BF22FE8002CAEE6 /* ENRON_mails_parser.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B5EA566B1BF22FE8002CAEE6 /* ENRON_mails_parser.xcdatamodeld */; };
+		B5EA566F1BF22FE8002CAEE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5EA566E1BF22FE8002CAEE6 /* Assets.xcassets */; };
+		B5EA56721BF22FE8002CAEE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5EA56701BF22FE8002CAEE6 /* Main.storyboard */; };
+		B5EA567D1BF22FE8002CAEE6 /* ENRON_mails_parserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EA567C1BF22FE8002CAEE6 /* ENRON_mails_parserTests.swift */; };
+		B5EA56881BF22FE8002CAEE6 /* ENRON_mails_parserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EA56871BF22FE8002CAEE6 /* ENRON_mails_parserUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5EA56791BF22FE8002CAEE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5EA565C1BF22FE8002CAEE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5EA56631BF22FE8002CAEE6;
+			remoteInfo = "ENRON mails parser";
+		};
+		B5EA56841BF22FE8002CAEE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5EA565C1BF22FE8002CAEE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5EA56631BF22FE8002CAEE6;
+			remoteInfo = "ENRON mails parser";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B5CC281C1BFCA2E8005C93F6 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		B5EA56641BF22FE8002CAEE6 /* ENRON mails parser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ENRON mails parser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5EA56671BF22FE8002CAEE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5EA56691BF22FE8002CAEE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B5EA566C1BF22FE8002CAEE6 /* ENRON_mails_parser.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ENRON_mails_parser.xcdatamodel; sourceTree = "<group>"; };
+		B5EA566E1BF22FE8002CAEE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5EA56711BF22FE8002CAEE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5EA56731BF22FE8002CAEE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5EA56781BF22FE8002CAEE6 /* ENRON mails parserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ENRON mails parserTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5EA567C1BF22FE8002CAEE6 /* ENRON_mails_parserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ENRON_mails_parserTests.swift; sourceTree = "<group>"; };
+		B5EA567E1BF22FE8002CAEE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5EA56831BF22FE8002CAEE6 /* ENRON mails parserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ENRON mails parserUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5EA56871BF22FE8002CAEE6 /* ENRON_mails_parserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ENRON_mails_parserUITests.swift; sourceTree = "<group>"; };
+		B5EA56891BF22FE8002CAEE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5EA56611BF22FE8002CAEE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5EA56751BF22FE8002CAEE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5EA56801BF22FE8002CAEE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5EA565B1BF22FE8002CAEE6 = {
+			isa = PBXGroup;
+			children = (
+				B5EA56661BF22FE8002CAEE6 /* ENRON mails parser */,
+				B5EA567B1BF22FE8002CAEE6 /* ENRON mails parserTests */,
+				B5EA56861BF22FE8002CAEE6 /* ENRON mails parserUITests */,
+				B5EA56651BF22FE8002CAEE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5EA56651BF22FE8002CAEE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5EA56641BF22FE8002CAEE6 /* ENRON mails parser.app */,
+				B5EA56781BF22FE8002CAEE6 /* ENRON mails parserTests.xctest */,
+				B5EA56831BF22FE8002CAEE6 /* ENRON mails parserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5EA56661BF22FE8002CAEE6 /* ENRON mails parser */ = {
+			isa = PBXGroup;
+			children = (
+				B5EA56671BF22FE8002CAEE6 /* AppDelegate.swift */,
+				B5EA56691BF22FE8002CAEE6 /* ViewController.swift */,
+				B5CC281C1BFCA2E8005C93F6 /* Parser.swift */,
+				B5EA566E1BF22FE8002CAEE6 /* Assets.xcassets */,
+				B5EA56701BF22FE8002CAEE6 /* Main.storyboard */,
+				B5EA56731BF22FE8002CAEE6 /* Info.plist */,
+				B5EA566B1BF22FE8002CAEE6 /* ENRON_mails_parser.xcdatamodeld */,
+			);
+			path = "ENRON mails parser";
+			sourceTree = "<group>";
+		};
+		B5EA567B1BF22FE8002CAEE6 /* ENRON mails parserTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5EA567C1BF22FE8002CAEE6 /* ENRON_mails_parserTests.swift */,
+				B5EA567E1BF22FE8002CAEE6 /* Info.plist */,
+			);
+			path = "ENRON mails parserTests";
+			sourceTree = "<group>";
+		};
+		B5EA56861BF22FE8002CAEE6 /* ENRON mails parserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B5EA56871BF22FE8002CAEE6 /* ENRON_mails_parserUITests.swift */,
+				B5EA56891BF22FE8002CAEE6 /* Info.plist */,
+			);
+			path = "ENRON mails parserUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5EA56631BF22FE8002CAEE6 /* ENRON mails parser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5EA568C1BF22FE8002CAEE6 /* Build configuration list for PBXNativeTarget "ENRON mails parser" */;
+			buildPhases = (
+				B5EA56601BF22FE8002CAEE6 /* Sources */,
+				B5EA56611BF22FE8002CAEE6 /* Frameworks */,
+				B5EA56621BF22FE8002CAEE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ENRON mails parser";
+			productName = "ENRON mails parser";
+			productReference = B5EA56641BF22FE8002CAEE6 /* ENRON mails parser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5EA56771BF22FE8002CAEE6 /* ENRON mails parserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5EA568F1BF22FE8002CAEE6 /* Build configuration list for PBXNativeTarget "ENRON mails parserTests" */;
+			buildPhases = (
+				B5EA56741BF22FE8002CAEE6 /* Sources */,
+				B5EA56751BF22FE8002CAEE6 /* Frameworks */,
+				B5EA56761BF22FE8002CAEE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5EA567A1BF22FE8002CAEE6 /* PBXTargetDependency */,
+			);
+			name = "ENRON mails parserTests";
+			productName = "ENRON mails parserTests";
+			productReference = B5EA56781BF22FE8002CAEE6 /* ENRON mails parserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B5EA56821BF22FE8002CAEE6 /* ENRON mails parserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5EA56921BF22FE8002CAEE6 /* Build configuration list for PBXNativeTarget "ENRON mails parserUITests" */;
+			buildPhases = (
+				B5EA567F1BF22FE8002CAEE6 /* Sources */,
+				B5EA56801BF22FE8002CAEE6 /* Frameworks */,
+				B5EA56811BF22FE8002CAEE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5EA56851BF22FE8002CAEE6 /* PBXTargetDependency */,
+			);
+			name = "ENRON mails parserUITests";
+			productName = "ENRON mails parserUITests";
+			productReference = B5EA56831BF22FE8002CAEE6 /* ENRON mails parserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5EA565C1BF22FE8002CAEE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Elroy;
+				TargetAttributes = {
+					B5EA56631BF22FE8002CAEE6 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					B5EA56771BF22FE8002CAEE6 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = B5EA56631BF22FE8002CAEE6;
+					};
+					B5EA56821BF22FE8002CAEE6 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = B5EA56631BF22FE8002CAEE6;
+					};
+				};
+			};
+			buildConfigurationList = B5EA565F1BF22FE8002CAEE6 /* Build configuration list for PBXProject "ENRON mails parser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5EA565B1BF22FE8002CAEE6;
+			productRefGroup = B5EA56651BF22FE8002CAEE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5EA56631BF22FE8002CAEE6 /* ENRON mails parser */,
+				B5EA56771BF22FE8002CAEE6 /* ENRON mails parserTests */,
+				B5EA56821BF22FE8002CAEE6 /* ENRON mails parserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5EA56621BF22FE8002CAEE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5EA566F1BF22FE8002CAEE6 /* Assets.xcassets in Resources */,
+				B5EA56721BF22FE8002CAEE6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5EA56761BF22FE8002CAEE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5EA56811BF22FE8002CAEE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5EA56601BF22FE8002CAEE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5CC281D1BFCA2E8005C93F6 /* Parser.swift in Sources */,
+				B5EA566A1BF22FE8002CAEE6 /* ViewController.swift in Sources */,
+				B5EA56681BF22FE8002CAEE6 /* AppDelegate.swift in Sources */,
+				B5EA566D1BF22FE8002CAEE6 /* ENRON_mails_parser.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5EA56741BF22FE8002CAEE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5EA567D1BF22FE8002CAEE6 /* ENRON_mails_parserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5EA567F1BF22FE8002CAEE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5EA56881BF22FE8002CAEE6 /* ENRON_mails_parserUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5EA567A1BF22FE8002CAEE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5EA56631BF22FE8002CAEE6 /* ENRON mails parser */;
+			targetProxy = B5EA56791BF22FE8002CAEE6 /* PBXContainerItemProxy */;
+		};
+		B5EA56851BF22FE8002CAEE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5EA56631BF22FE8002CAEE6 /* ENRON mails parser */;
+			targetProxy = B5EA56841BF22FE8002CAEE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5EA56701BF22FE8002CAEE6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5EA56711BF22FE8002CAEE6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5EA568A1BF22FE8002CAEE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5EA568B1BF22FE8002CAEE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B5EA568D1BF22FE8002CAEE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "ENRON mails parser/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mipt.ENRON-mails-parser";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B5EA568E1BF22FE8002CAEE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "ENRON mails parser/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mipt.ENRON-mails-parser";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B5EA56901BF22FE8002CAEE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "ENRON mails parserTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mipt.ENRON-mails-parserTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ENRON mails parser.app/Contents/MacOS/ENRON mails parser";
+			};
+			name = Debug;
+		};
+		B5EA56911BF22FE8002CAEE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "ENRON mails parserTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mipt.ENRON-mails-parserTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ENRON mails parser.app/Contents/MacOS/ENRON mails parser";
+			};
+			name = Release;
+		};
+		B5EA56931BF22FE8002CAEE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "ENRON mails parserUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mipt.ENRON-mails-parserUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ENRON mails parser";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B5EA56941BF22FE8002CAEE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "ENRON mails parserUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mipt.ENRON-mails-parserUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ENRON mails parser";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5EA565F1BF22FE8002CAEE6 /* Build configuration list for PBXProject "ENRON mails parser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5EA568A1BF22FE8002CAEE6 /* Debug */,
+				B5EA568B1BF22FE8002CAEE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5EA568C1BF22FE8002CAEE6 /* Build configuration list for PBXNativeTarget "ENRON mails parser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5EA568D1BF22FE8002CAEE6 /* Debug */,
+				B5EA568E1BF22FE8002CAEE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5EA568F1BF22FE8002CAEE6 /* Build configuration list for PBXNativeTarget "ENRON mails parserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5EA56901BF22FE8002CAEE6 /* Debug */,
+				B5EA56911BF22FE8002CAEE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5EA56921BF22FE8002CAEE6 /* Build configuration list for PBXNativeTarget "ENRON mails parserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5EA56931BF22FE8002CAEE6 /* Debug */,
+				B5EA56941BF22FE8002CAEE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B5EA566B1BF22FE8002CAEE6 /* ENRON_mails_parser.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B5EA566C1BF22FE8002CAEE6 /* ENRON_mails_parser.xcdatamodel */,
+			);
+			currentVersion = B5EA566C1BF22FE8002CAEE6 /* ENRON_mails_parser.xcdatamodel */;
+			path = ENRON_mails_parser.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B5EA565C1BF22FE8002CAEE6 /* Project object */;
+}
