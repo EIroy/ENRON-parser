@@ -6,6 +6,7 @@
 //  Copyright © 2015 Elroy. All rights reserved.
 //
 
+import CoreData
 import Cocoa
 
 class ViewController: NSViewController {
