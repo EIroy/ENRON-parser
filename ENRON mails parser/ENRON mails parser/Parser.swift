@@ -15,20 +15,11 @@ import CoreData
 class Parser: NSObject {
 
     var words = [NSManagedObject]()
-    
-    func loadMailText(path: String) -> String {
-        do {
-            let text = try NSString(contentsOfFile: path, encoding: NSUTF8StringEncoding)
-            return text as String
-        }
-        catch let error as NSError  {
-            print("Could not load file \(path), \(error), \(error.userInfo)")
-        }
-    }
+
     
     func parseText() {
         let fileLocation = NSBundle.mainBundle().pathForResource("filename", ofType: "txt")!
-        let text : String
+        var text : String
         do
         {
             text = try String(contentsOfFile: fileLocation)

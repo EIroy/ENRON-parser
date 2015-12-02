@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B5CC281D1BFCA2E8005C93F6 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CC281C1BFCA2E8005C93F6 /* Parser.swift */; settings = {ASSET_TAGS = (); }; };
-		B5CC28211BFCD9F8005C93F6 /* MailModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B5CC281F1BFCD9F8005C93F6 /* MailModel.xcdatamodeld */; settings = {ASSET_TAGS = (); }; };
+		B5A3EF2C1C0F410400334528 /* Folderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A3EF2B1C0F410400334528 /* Folderer.swift */; };
+		B5CC281D1BFCA2E8005C93F6 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CC281C1BFCA2E8005C93F6 /* Parser.swift */; };
+		B5CC28211BFCD9F8005C93F6 /* MailModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B5CC281F1BFCD9F8005C93F6 /* MailModel.xcdatamodeld */; };
 		B5EA56681BF22FE8002CAEE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EA56671BF22FE8002CAEE6 /* AppDelegate.swift */; };
 		B5EA566A1BF22FE8002CAEE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EA56691BF22FE8002CAEE6 /* ViewController.swift */; };
 		B5EA566F1BF22FE8002CAEE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5EA566E1BF22FE8002CAEE6 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B5A3EF2B1C0F410400334528 /* Folderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Folderer.swift; sourceTree = "<group>"; };
 		B5CC281C1BFCA2E8005C93F6 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
 		B5CC28201BFCD9F8005C93F6 /* MailModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MailModel.xcdatamodel; sourceTree = "<group>"; };
 		B5EA56641BF22FE8002CAEE6 /* ENRON mails parser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ENRON mails parser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,6 +104,7 @@
 				B5EA56671BF22FE8002CAEE6 /* AppDelegate.swift */,
 				B5EA56691BF22FE8002CAEE6 /* ViewController.swift */,
 				B5CC281C1BFCA2E8005C93F6 /* Parser.swift */,
+				B5A3EF2B1C0F410400334528 /* Folderer.swift */,
 				B5EA566E1BF22FE8002CAEE6 /* Assets.xcassets */,
 				B5EA56701BF22FE8002CAEE6 /* Main.storyboard */,
 				B5EA56731BF22FE8002CAEE6 /* Info.plist */,
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5CC281D1BFCA2E8005C93F6 /* Parser.swift in Sources */,
+				B5A3EF2C1C0F410400334528 /* Folderer.swift in Sources */,
 				B5EA566A1BF22FE8002CAEE6 /* ViewController.swift in Sources */,
 				B5CC28211BFCD9F8005C93F6 /* MailModel.xcdatamodeld in Sources */,
 				B5EA56681BF22FE8002CAEE6 /* AppDelegate.swift in Sources */,
